@@ -41,9 +41,14 @@ uv sync
 
 
 # Roadmap
+### Initial Startup
 - [X] Project Name - Always need a good name :)
-- [ ] Initial Configutation
-- [ ] Repository Structure
+- [X] Repository Structure
+- [X] Environment Configuration
+- [X] dev tools
+- [X] Getting started guide
+- [ ] Github actions
+
 
 **More to come!**
 
