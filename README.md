@@ -4,11 +4,17 @@
 # Purpose
 
 
-A python package/toolkit meant to simplify and abstract important data engineering transformations and techniques. This package will revolve around the the 3 most commenly used packages used in data engineering; that being `polars`, `duckdb` and `pandas`(even though polars is much better, pandas is still used commonly either as legacy code or in conjunction with machine learning packages frequently). The goal is to have a clean framework around these packages such that teams using the various packages will be speaking **"a common language"** and not be using boilerplate code representing the same things and significnaly improve readabily.
+A Python toolkit/package designed to simplify and standardize common data‑engineering transformations widely used in the industry. It provides a unified, clean interface around the three most widely used data‑processing libraries — `Polars`, `DuckDB`, and `Pandas` — helping teams write consistent, readable, and maintainable code without repetitive boilerplate.
+
+Even though `Polars` is often the superior choice, `Pandas` remains heavily used in legacy pipelines and machine‑learning workflows. This toolkit bridges those ecosystems so engineers and other data proffesionals can **“speak a common language”** across different technologies while improving clarity and reducing friction in collaborative environments.
 
 
 # Roadmap
-WIP
+- [X] Project Name - Always need a good name :)
+- [ ] Initial Configutation
+- [ ] Repository Structure
+
+**More to come!**
 
 
 # Repository Structure
