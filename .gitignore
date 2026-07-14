@@ -1,0 +1,35 @@
+
+# No keys or whatnot accidently getting committed!!!
+*.json
+
+
+# Common data files - import samples data locally in  or generate dummy data in code
+*.csv
+*.pqt
+*.xlsx
+
+# logs & runtime
+
+*.log
+*.tmp
+*.cache
+
+# Environment level
+__pycache__/
+.venv/
+venv/
+
+# Secrets, Config & Environment
+.env 
+.env.local 
+.env.development
+*.key, *.pem
+*.p12, *.crt
+secrets.json
+
+# Vscode Setup
+
+.vscode/
+
+
+ 
