@@ -1,7 +1,7 @@
 [project]
 name = "data_elements"
 version = "0.1.0"
-description = "Data processing and testing project using pandas, polars, and duckdb"
+description = "Data engineering framework project using pandas, polars, and duckdb"
 authors = [
     { name = "Michael Dedic", email = "dev.michael.dedic@gmail.com" }
 ]
@@ -14,13 +14,11 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = [
-    "pytest>=9.1"
-]
+dev = [] #leaving in case of future additions.
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-v"
+addopts = "-v"  # Verbose Mode for better debugging and observability.
 
 [build-system]
 requires = ["hatchling>=1.26"]
