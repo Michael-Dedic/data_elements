@@ -11,7 +11,6 @@ repos:
           - --fix
           - --exit-non-zero-on-fix
           - --show-fixes
-          - --force-exclude
       - id: ruff-format
 
   # Mypy: static type checking
@@ -59,4 +58,3 @@ repos:
     rev: v4.6.0
     hooks:
       - id: pretty-format-json
-        args: [--autofix]

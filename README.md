@@ -25,7 +25,7 @@ cd data_elements
 - Setup dev tools. These are global tools (ruff, mypy, pre‑commit, pytest) used for linting, type checking, formatting, and testing.
 
 ```
-.\setup-dev.bat     
+.\setup-dev.bat
 
 ```
 
@@ -35,7 +35,38 @@ uv sync
 
 ```
 
+**Note**: If you do not have uv installed, please refer to the offical [uv documentation](https://docs.astral.sh/uv/reference/installer/#__tabbed_1_2) to install it.
 
+
+- Activate Virtual Environment
+
+```
+.\.venv\Scripts\activate.bat
+
+
+```
+
+- Local Dev Commands
+```
+#Check whole project for lint issues
+
+uv run --with ruff ruff check .
+
+
+# Fix lint issues
+
+uv run --with ruff ruff check . --fix
+
+
+# Auto Format
+
+uv run --with ruff ruff format .
+
+
+
+
+
+```
 
 
 
@@ -48,16 +79,15 @@ uv sync
 - [X] dev tools
 - [X] Getting started guide
 - [ ] Github actions
+- [ ]
 
-
-**More to come!**
 
 
 # Repository Structure
 
-WIP
 
 
 
 
 
+**More to come!**
