@@ -35,6 +35,8 @@ uv sync
 
 ```
 
+**Note**: If you do not have uv installed, please refer to the offical [uv documentation](https://docs.astral.sh/uv/reference/installer/#__tabbed_1_2) to install it.
+
 
 
 
@@ -48,6 +50,7 @@ uv sync
 - [X] dev tools
 - [X] Getting started guide
 - [ ] Github actions
+- [ ] 
 
 
 **More to come!**
