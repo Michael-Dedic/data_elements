@@ -38,13 +38,36 @@ uv sync
 **Note**: If you do not have uv installed, please refer to the offical [uv documentation](https://docs.astral.sh/uv/reference/installer/#__tabbed_1_2) to install it.
 
 
-# Activate Virtual Environment
+- Activate Virtual Environment
 
 ```
 .\.venv\Scripts\activate.bat
 
 
 ```
+
+- Local Dev Commands
+```
+#Check whole project for lint issues
+
+uv run --with ruff ruff check .
+
+
+# Fix lint issues
+
+uv run --with ruff ruff check . --fix
+
+
+# Auto Format
+
+uv run --with ruff ruff format .
+
+
+
+
+
+```
+
 
 
 
@@ -59,7 +82,12 @@ uv sync
 - [ ]
 
 
-**More to come!**
-
 
 # Repository Structure
+
+
+
+
+
+
+**More to come!**
